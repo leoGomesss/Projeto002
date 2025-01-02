@@ -1,66 +1,65 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: principal;
-    src: url('../Fontes/CaviarDreams_Bold.ttf');
+  font-family: principal;
+  src: url("../Fontes/CaviarDreams_Bold.ttf");
 }
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 body {
-    background: #000;
+  background: #000;
 }
 /*Estilos Globais*/
 h3 {
-    color: #fff;
-    font-family: principal;
+  color: #fff;
+  font-family: principal;
 }
 h5 {
-    color: #c5f82a;
-    font-family: principal;
+  color: #c5f82a;
+  font-family: principal;
 }
 p {
-    color: #fff;
-}
- 
-.principal {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 320px;
-    margin: 40px auto;
-    border-radius: 10px;
-    background: hsl(0, 0%, 8%);
-}
-.principal img {
-    width: 107px;
-    border-radius: 50%;
-    padding: 20px 0;
-}
-.lista {
-    border-radius: 7px;
-    margin-bottom: 20px;
-    padding: 10px;
-}
-.lista a{
-    text-decoration: none;
-}
-.lista p {
-    color: #fff;
-}
-.lista p:hover{
-    color: #c5f82a;
-    font-weight: bold;
-}
-#info {
-    width: 200px;
-    background: #2e2c2c;
-    text-align: center;
-    font-family: principal;
-    padding: 10px;
-    border-radius: 7px;
+  color: #fff;
 }
 
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  margin: 40px auto;
+  border-radius: 10px;
+  background: hsl(0, 0%, 8%);
+}
+.principal img {
+  width: 107px;
+  border-radius: 50%;
+  padding: 20px 0;
+}
+.lista {
+  border-radius: 7px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.lista a {
+  text-decoration: none;
+}
+.lista p {
+  color: #fff;
+}
+.lista p:hover {
+  color: #c5f82a;
+  font-weight: bold;
+}
+#info {
+  width: 200px;
+  background: #777575;
+  text-align: center;
+  font-family: principal;
+  padding: 10px;
+  border-radius: 7px;
+}
